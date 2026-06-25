@@ -62,6 +62,8 @@ generateReportbtn.addEventListener("click", function () {
   }
 
   else {
+    let months = impact / 100;
+    rImpact.innerText = "Needs " + months.toFixed(2) + " months of salary";
     impactBox.innerText = "🔴 High Impact Purchase";
     impactBox.style.color = "red";
   }

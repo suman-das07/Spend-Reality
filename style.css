@@ -132,9 +132,20 @@ body.dark .mainScreen button {
   background: transparent;
   border: 1px solid #17FF27;
   color: #15FF92;
+  transition: linear 0.2s;
 }
+body.dark .mainScreen button:hover{
+  background-color: #17FF27;
+  color: #111111;
+  box-shadow: 0px 0px 15px rgba(88, 240, 96, 0.795);
+}
+
 body.dark .mainScreen h3{
   color: #15FF92;
+}
+body.dark .mainScreen input:focus{
+    box-shadow: 0px 0px 15px rgba(88, 240, 96, 0.795);
+    border: 1px solid #15FF92;
 }
 #overlay {
   position: fixed;
@@ -163,18 +174,18 @@ body.dark .mainScreen h3{
 
 .reportHeader h2 {
   margin: 0;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .reportHeader p {
-  font-size: 12px;
+  font-size: 15px;
   color: gray;
 }
 
 .row {
   display: flex;
   justify-content: space-between;
-  margin: 10px 0;
+  margin: 15px 0;
   font-size: 14px;
 }
 
@@ -206,20 +217,26 @@ body.dark .mainScreen h3{
 }
 
 body.dark .reportModal {
-  background: #1e293b;
-  color: white;
+  background: #111111;
+  color: #17FF27;
 }
 
 body.dark .row span:first-child {
-  color: #94a3b8;
+  color: #15FF92;
 }
 
 body.dark .impactBox {
-  background: #0f172a;
-  border: 1px solid #334155;
+  background: #111111;
+  border: 1px solid #15FF92;
 }
 
 body.dark #closeBtn {
-  background: #38bdf8;
-  color: #0f172a;
+  background: transparent;
+  color: #15FF92;
+  border: 1px solid #17FF27;
+  transition: linear 0.2s;
+}
+body.dark #closeBtn:hover{
+  background-color: #17FF27;
+  color: #111111;
 }
