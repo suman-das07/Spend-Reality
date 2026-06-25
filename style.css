@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7%;
+}
+
+header>.header>h1 {
+  font-family: "MuseoModerno", sans-serif;
+  font-size: 3.5vw;
+}
+
+header>.header>h4 {
+  font-family: "MuseoModerno", sans-serif;
+  font-size: 1.3vw;
+}
+
+header>.themeToggle>i {
+  font-size: 2vw;
+  cursor: pointer;
+}
+
+.themeToggle #day {
+  visibility: hidden;
+}
+
+.mainScreen {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  margin-top: 10vh;
+  padding-left: 7vw;
+}
+
+.mainScreen>#price {
+  padding: 2vh 2vw;
+  width: 18%;
+  border-radius: 6px;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 1.1vw;
+}
+
+.mainScreen>#hourWage {
+  position: absolute;
+  padding: 2vh 2vw;
+  width: 16.8%;
+  border-radius: 6px;
+  margin-top: 22vh;
+
+}

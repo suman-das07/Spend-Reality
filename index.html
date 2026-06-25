@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spend Reality</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
+<body>
+  <header>
+    <div class="header">
+      <h1>Spend Reality</h1>
+      <h4>Your salary vs your desires — made visible.</h4>
+    </div>
+    <div class="themeToggle">
+       <i id="day" class="ri-sun-fill"></i>
+       <i id="night" class="ri-moon-line"></i>
+    </div>
+  </header>
+
+  <div class="mainScreen">
+    <input type="number" name="price" id="price" placeholder="Enter Price of the Product" required>
+    <input type="number" name="hourWage" id="hourWage" placeholder="Enter your Hourly Wage">
+
+    <input type="text" name="itemName" id="itemName" placeholder="Enter Name of the Product">
+     <h3>OR</h3>
+    <input type="number" name="monthlySalary" id="monthlySalary" placeholder="Enter your Monthly Salary">
+
+    <button id="generateReport">Generate Report</button>
+  </div>
+<div class="result">
+  <h5></h5>
+</div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
