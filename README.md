@@ -89,7 +89,7 @@ User Input → Income Normalization → Calculation Engine → Report Generation
 <h2>Live Demo</h2>
 
 <p>
-<a href="#">Click here to view live project</a>
+<a href="https://spend-reality.netlify.app/">Click here to view live project</a>
 </p>
 
 ---
@@ -127,7 +127,7 @@ Monthly Salary: ₹20,000
   <li>Add savings goal planner</li>
   <li>Add analytics dashboard</li>
   <li>Store user history (localStorage)</li>
-  <li>Mobile-first responsive redesign</li>
+  <!-- <li>Mobile-first responsive redesign</li> -->
 </ul>
 
 ---
