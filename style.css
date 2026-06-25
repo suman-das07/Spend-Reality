@@ -40,6 +40,9 @@ header .header h4 {
   display: none;
 }
 
+.themeToggle.dark #day{
+  display: flex;
+}
 /* MAIN SECTION */
 
 .mainScreen {
@@ -107,29 +110,32 @@ header .header h4 {
 /* DARK MODE */
 
 body.dark {
-  background: #0f172a;
+  background-color: #111111;
   color: white;
+}
+body.dark header {
+  background: #111111;
+  color: #17FF27;
 }
 
 body.dark .mainScreen input {
-  background: #1e293b;
-  color: white;
-  border-color: #475569;
+  background: #1e293b00;
+  color: #15FF92;
+  border-color: #17FF27;
 }
 
 body.dark .mainScreen input::placeholder {
-  color: #cbd5e1;
+  color: #15FF92;
 }
 
 body.dark .mainScreen button {
-  background: #38bdf8;
-  color: black;
+  background: transparent;
+  border: 1px solid #17FF27;
+  color: #15FF92;
 }
-
-body.dark header {
-  background: #111827;
+body.dark .mainScreen h3{
+  color: #15FF92;
 }
-
 #overlay {
   position: fixed;
   top: 0;
@@ -197,4 +203,23 @@ body.dark header {
   color: white;
 
   cursor: pointer;
+}
+
+body.dark .reportModal {
+  background: #1e293b;
+  color: white;
+}
+
+body.dark .row span:first-child {
+  color: #94a3b8;
+}
+
+body.dark .impactBox {
+  background: #0f172a;
+  border: 1px solid #334155;
+}
+
+body.dark #closeBtn {
+  background: #38bdf8;
+  color: #0f172a;
 }
