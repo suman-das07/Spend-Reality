@@ -24,13 +24,40 @@
     <input type="number" name="hourWage" id="hourWage" placeholder="Enter your Hourly Wage">
 
     <input type="text" name="itemName" id="itemName" placeholder="Enter Name of the Product">
-     <h3>OR</h3>
+     <h3>Or</h3>
     <input type="number" name="monthlySalary" id="monthlySalary" placeholder="Enter your Monthly Salary">
 
     <button id="generateReport">Generate Report</button>
   </div>
-<div class="result">
-  <h5></h5>
+
+<div id="overlay">
+  <div class="reportModal">
+
+    <div class="reportHeader">
+      <h2>SpendReality Report</h2>
+      <p>Financial Impact Breakdown</p>
+    </div>
+
+    <div class="reportBody">
+      <div class="row"><span>Product</span><span id="rProduct"></span></div>
+      <div class="row"><span>Price</span><span id="rPrice"></span></div>
+
+      <hr>
+
+      <div class="row"><span>Hours Needed</span><span id="rHours"></span></div>
+      <div class="row"><span>Days Needed</span><span id="rDays"></span></div>
+
+      <div class="row"><span>Monthly Impact</span><span id="rImpact"></span></div>
+    </div>
+
+    <div class="impactBox" id="impactBox">
+      🔴 High Impact Purchase
+    </div>
+
+    <button id="closeBtn">Close</button>
+
+  </div>
+</div>
 </div>
 
 
