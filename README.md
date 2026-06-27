@@ -1,3 +1,6 @@
+
+
+
 ﻿<h1 align="center">SpendReality</h1>
 
 <p align="center">
@@ -16,7 +19,11 @@ Instead of just showing price, it calculates how many hours or days of work are 
 This project was built to explore how financial decisions feel when represented in a more human and intuitive way.
 </p>
 
----
+<h3>Working Model</h3>
+
+https://github.com/user-attachments/assets/1287999f-2a42-484d-bacf-91fb685dde52
+
+
 
 <h2>Features</h2>
 
